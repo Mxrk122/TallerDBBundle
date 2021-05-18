@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //botones
         btnOpen.setOnClickListener(){
             val intent: Intent = Intent(this, MainActivity2::class.java)
             intent.putExtra("valor", "suma")
